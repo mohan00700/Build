@@ -7,6 +7,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.build.timestamp.format>yyyy-MMM-dd_HH.mm.ss</maven.build.timestamp.format>
+
+		<BUILD_TIMESTAMP>${maven.build.timestamp}</BUILD_TIMESTAMP>
+ </properties>
+ 
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
